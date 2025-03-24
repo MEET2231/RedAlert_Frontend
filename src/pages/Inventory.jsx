@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/inventory"; // Ensure backend API is correct
+const API_URL = "https://redalert-backend-jxzv.onrender.com/api/inventory"; // Ensure backend API is correct
 
 const Inventory = () => {
   const [inventoryList, setInventoryList] = useState([]);
