@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/suppliers";
+const API_URL = "https://redalert-backend-jxzv.onrender.com/api/suppliers";
 
 const Suppliers = () => {
   const [suppliers, setSuppliers] = useState([]);
