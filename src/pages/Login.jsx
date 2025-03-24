@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const API_URL = "http://localhost:5000/api/auth/login";
+const API_URL = "https://redalert-backend-jxzv.onrender.com/api/auth/login";
 
 const Login = () => {
   const [userName, setUserName] = useState("");
