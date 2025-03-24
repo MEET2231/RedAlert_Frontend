@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/reports";
+const API_URL = "https://redalert-backend-jxzv.onrender.com/api/reports";
 
 const Reports = () => {
   const [reports, setReports] = useState([]);
